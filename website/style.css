@@ -1,0 +1,71 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.5em;
+  background: wheat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#header {
+  text-align: center;
+  color: rgb(146, 48, 48);
+}
+
+#input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 70vw;
+  text-align: center;
+}
+
+#zip {
+  width: 30%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#feelings {
+  margin-top: 5px;
+  padding: 10px;
+  width: 40%;
+  min-height: 50px;
+  font-size: 20px;
+}
+
+#generate {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(240, 179, 179);
+  border: none;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+#entryHolder {
+  background-color: whitesmoke;
+  min-height: 35vh;
+  width: 40vw;
+  margin: 20px;
+  padding: 20px;
+  color: grey;
+}
+
+#footer {
+  font-size: 1em;
+  width: 100vw;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
